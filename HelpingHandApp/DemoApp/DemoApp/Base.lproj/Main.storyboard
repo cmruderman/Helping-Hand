@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="NrU-X4-gff">
+                                <rect key="frame" x="148.5" y="169" width="37" height="37"/>
+                            </activityIndicatorView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pf8-Go-3v4" userLabel="Left Image View">
+                                <rect key="frame" x="0.0" y="0.0" width="333.5" height="375"/>
+                                <color key="backgroundColor" red="0.12122973236664918" green="0.13305217516805579" blue="0.58252446338383845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z0b-9q-3Wm">
+                                <rect key="frame" x="333.5" y="0.0" width="333.5" height="375"/>
+                                <color key="backgroundColor" red="0.58252446339999997" green="0.045853185314810641" blue="0.043812746404581507" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pf8-Go-3v4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="4ZB-XW-Sq3"/>
+                            <constraint firstItem="pf8-Go-3v4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="7p8-Q9-HGE"/>
+                            <constraint firstItem="NrU-X4-gff" firstAttribute="centerY" secondItem="pf8-Go-3v4" secondAttribute="centerY" id="Lhc-EM-N3D"/>
+                            <constraint firstItem="Z0b-9q-3Wm" firstAttribute="leading" secondItem="pf8-Go-3v4" secondAttribute="trailing" id="c2f-ia-UhO"/>
+                            <constraint firstItem="pf8-Go-3v4" firstAttribute="height" secondItem="Z0b-9q-3Wm" secondAttribute="height" id="ein-pu-zlq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z0b-9q-3Wm" secondAttribute="trailing" constant="-20" id="ix0-Bl-Ta6"/>
+                            <constraint firstItem="NrU-X4-gff" firstAttribute="centerX" secondItem="pf8-Go-3v4" secondAttribute="centerX" id="kZO-eG-0Sc"/>
+                            <constraint firstItem="pf8-Go-3v4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="oX5-2I-aGY"/>
+                            <constraint firstItem="Z0b-9q-3Wm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qUf-hY-IzO"/>
+                            <constraint firstItem="pf8-Go-3v4" firstAttribute="width" secondItem="Z0b-9q-3Wm" secondAttribute="width" id="w0C-uh-iA7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="pf8-Go-3v4" id="WhD-sQ-w6e"/>
+                        <outlet property="loadingIndicator" destination="NrU-X4-gff" id="8kp-Kz-3xN"/>
+                        <outlet property="rightImageView" destination="Z0b-9q-3Wm" id="1Hw-hN-SOH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243.32833583208398" y="336.80000000000001"/>
+        </scene>
+    </scenes>
+</document>

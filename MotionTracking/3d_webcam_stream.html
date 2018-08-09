@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#leftHalf {
+   background: url("http://192.168.1.6:8081/?action=stream");
+   width: 50%;
+   position: absolute;
+   background-repeat: no-repeat;
+   left: 0px;
+   height: 100%;
+}
+#rightHalf {
+   background: url("http://192.168.1.6:8082/?action=stream");
+   width: 50%;
+   position: absolute;
+   background-repeat: no-repeat;
+   right: 0px;
+   height: 100%;
+}
+</style>
+</head>
+<body>
+<!-- 
+<h2>Two Equal Columns</h2>
+ -->
+<div class="row">
+  <div id="leftHalf">
+  </div>
+  <div id="rightHalf">
+  </div>
+</div>
+
+</body>
+</html>

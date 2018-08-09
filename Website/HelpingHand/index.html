@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Team Helping Hand</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Team Name: Helping Hand
+    SDP 2018
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">Problem Statement</a></li>
+          <li><a class="js-scroll-trigger" href="#portfolio">System Specifications</a></li>
+          <li><a href="#services">Block Diagram</a></li>
+          <li><a href="#team">Team</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to Team Helping Hand</h1>
+      <h2>We are revolutionizing the way people interact with robots</h2>
+      <a href="#about" class="btn-get-started">Learn More</a>
+    </div>
+  </section><!-- #Intro -->
+
+  <main id="main">
+
+    <!--==========================
+     Problem Statement Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">Problem Statement</h2>
+            <p>
+              Robotic arms are used in everything from medical research to construction. As robotic technology becomes more prevalent in our society, more intuitive control approaches will be necessary. This will help make the technology more accessible to all users with little to no training.
+            </p>
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><a href="./assets/documents/Midway_Project_Report.pdf" class="button" download><i class="fa fa-download"></i></a></div>
+              <h4 class="title">Midway Project Report</h4>
+              <p class="description">Download Now</p>
+            </div>
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><a href="./assets/documents/PDR.pdf" class="button" download><i class="fa fa-download"></i></a></div>
+              <h4 class="title">PDR</h4>
+              <p class="description">Download Now</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><a href="./assets/documents/MDR.pdf" class="button" download><i class="fa fa-download"></i></a></div>
+              <h4 class="title">MDR</h4>
+              <p class="description">Download Now</p>
+            </div>
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><a href="./assets/documents/CDR.pdf" class="button" download><i class="fa fa-download"></i></a></div>
+              <h4 class="title">CDR</h4>
+              <p class="description">Download Now</p>
+            </div>
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><a href="./assets/documents/FPR.pdf" class="button" download><i class="fa fa-download"></i></a></div>
+              <h4 class="title">FPR</h4>
+              <p class="description">Download Now</p>
+            </div>
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><a href="./assets/documents/poster.pdf" class="button" download><i class="fa fa-download"></i></a></div>
+              <h4 class="title">Poster</h4>
+              <p class="description">Download Now</p>
+            </div>
+          </div>
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!-- System Specifications -->
+    <section id="portfolio" class="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-lg-20">
+            <h3 style="color: black; font-weight: bold; text-align: center;">System Specifications</h3>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="portfolio-item">
+                    <h5 style="text-align: center;">Arm</h5>
+                    <li>Minimum range of motion defined by a rectangular prism 1.5’x1.5’ horizontally and 1’ vertically directly in front of therobot in 4 D.O.F.</li>
+                    <li>Should mimic the user’s arm position with 0.25 second latency</li>
+                    <li>Will be able to move at least 5 inches per second in any direction</li>
+                    <li>Will move towards the user’s current hand position as fast as possible rather than mimic all movements exactly</li>
+                    <li>Evaluation metric: Arm will perform the task of moving 5 rocks (approx. size of a ping pong ball) placed randomly within the workspace of the arm into a ~3” tall bowl of diameter ~8” within 5 min</li>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item">
+                    <h5 style="text-align: center;">User Interface</h5>
+                    <li>Hand tracking -- Intuitive and easy to use</li>
+                    <li>Fast tracking rate (>20 FPS)</li>
+                    <li>Accurate tracking (within 1” of actual hand position)</li>
+                    <li>Adequate range of motion (> 2’x2’x1’ tracking area)</li>
+                    <li>User Control Board should implement: on/off, emergency stop, pause/resume</li>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+      <!-- /.container -->
+    </section>
+
+    <!--==========================
+      Block Diagram Section
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 style="color: black; font-weight: bold; text-align: center;">Block Diagram</h3>
+        </div>
+      </div>
+      <div>
+      <p style="text-align:center">
+        <img src="./img/block.png" class "centerImage" alt="Block" style="width:50%;height:50%;" hspace="20" vspace="5">
+      </p>
+   </div>
+    </section><!-- #Block Diagram -->
+
+
+
+
+    <!--==========================
+      Team Section
+    ============================-->
+        <section id="team">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 style="color: black; font-weight: bold; text-align: center;">Meet the Team</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/corey.png" alt=""></div>
+              <h4>Corey Ruderman</h4>
+              <span>CSE</span>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/coreyruderman/"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/dan.png" alt=""></div>
+              <h4>Dan Travis</h4>
+              <span>CSE</span>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/daniel-travis-9b5286140/"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/jacob.png" alt=""></div>
+              <h4>Jacob Wyner</h4>
+              <span>CSE</span>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/jacob-wyner-95019b127/"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/josh.png" alt=""></div>
+              <h4>Joshua Girard</h4>
+              <span>CS and CSE</span>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/joshuaegirard/"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/duarte.png" alt=""></div>
+              <h4>Professor Duarte</h4>
+              <span>Advisor</span>
+              <div class="social">
+                <a href="http://www.ecs.umass.edu/~mduarte/Main/Main.html"><i class="fa fa-sign-out"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Team Helping Hand</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
