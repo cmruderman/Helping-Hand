@@ -1,5 +1,5 @@
 # Helping-Hand
-Developed a remotely controlled robotic arm that interpreted and translated live movements of the operator’s arm and hand into robotic commands: https://goo.gl/wXaUkz
+Developed a remotely controlled robotic arm that interpreted and translated live movements of the operator’s arm and hand into robotic commands
 
 For my senior design project, my team and I developed a remotely controlled robotic arm using a novel human-robot interface. Our system, deemed the Helping Hand, 
 interprets the live movements of the operator’s arm and hand and translates those movements into commands for the robot. The robotic arm then moves to the correct 
